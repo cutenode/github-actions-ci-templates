@@ -4,14 +4,14 @@ A repository of templates for JavaScript and Node.js GitHub Actions CI configura
 
 ## How to use the Templates
 
-Add the appropriate YAML to your repository under the `.github/workflows/` path, naming the YAML whatever you'd like to name it. I generally like to follow the `language-platform(s)-ci.yaml` pattern, but your mileage may vary.
+Add the appropriate YAML to your repository under the `.github/workflows/` path, naming the YAML whatever you'd like to name it. I generally like to follow the `language-platform(s)-ci.yml` pattern, but your mileage may vary.
 
-For example, if you wanted to use the `nodejs-cross-platform-ci.yaml` template, you'd add it in:
+For example, if you wanted to use the `nodejs-cross-platform-ci.yml` template, you'd add it in:
 
 ```bash
 - .github/
   - workflows/
-    - nodejs-cross-platform-ci.yaml # you can rename this whatever you'd like
+    - nodejs-cross-platform-ci.yml # you can rename this whatever you'd like
 ```
 
 ## How to improve the Templates
