@@ -5,7 +5,7 @@ A repository of templates for GitHub Actions CI configurations.
 ## The Templates
 
 - [JavaScript](./templates/javascript/)
-  - [Node.js Cross Platform](./templates/javascript/nodejs-cross-platform-ci.yml): Runs builds on Linux, Windows, and macOS using all versions of Node.js that are currently supported by the Node.js project.
+  - [Node.js Cross-Platform](./templates/javascript/nodejs-cross-platform-ci.yml): Runs builds on Linux, Windows, and macOS using all versions of Node.js that are currently supported by the Node.js project, using `npm install` and `npm test`.
 
 ## How to use the Templates
 
