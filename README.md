@@ -5,7 +5,27 @@ A repository of templates for GitHub Actions CI configurations.
 ## The Templates
 
 - [JavaScript](./templates/javascript/)
-  - [Node.js Cross-Platform](./templates/javascript/nodejs-cross-platform-ci.yml): Runs builds on Linux, Windows, and macOS using all versions of Node.js that are currently supported by the Node.js project, using `npm install` and `npm test`.
+  - [Node.js Cross-Platform](./templates/javascript/nodejs-cross-platform-ci.yml): 
+    - Runs builds on:
+      - Ubuntu (Latest),
+      - Windows (Latest),
+      - macOS (Latest)
+    - Using all versions of Node.js that are [currently supported](https://github.com/nodejs/release#release-schedule) by the Node.js project,
+    - Using `npm install` and `npm test`.
+  - [Node.js Cross-Platform (using Yarn)](./templates/javascript/yarn-nodejs-cross-platform-ci.yml)
+    - Runs builds on:
+      - Ubuntu (Latest),
+      - Windows (Latest),
+      - macOS (Latest)
+    - Using all versions of Node.js that are [currently supported](https://github.com/nodejs/release#release-schedule) by the Node.js project,
+    - Using `yarn install` and `yarn test`.
+  - [Node.js Cross-Platform (using pnpm)](./templates/javascript/pnpm-nodejs-cross-platform-ci.yml):
+    - Runs builds on:
+      - Ubuntu (Latest),
+      - Windows (Latest),
+      - macOS (Latest)
+    - Using all versions of Node.js that are [currently supported](https://github.com/nodejs/release#release-schedule) by the Node.js project.
+    - Using `pnpm install` and `pnpm test`.
 
 ## How to use the Templates
 
